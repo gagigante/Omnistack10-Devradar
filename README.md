@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Devradar" title="#Devradar" src=".github/devradar-logo.svg" width="250px" />
+    <img alt="Devradar" title="#Devradar" src=".github/download.svg" width="250px" />
 </h1>
 
 <h4 align="center">
@@ -21,44 +21,129 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how to run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">License</a>
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="Frontend" src=".github/aircnc.png" width="100%">
+  <img alt="Frontend" src=".github/devradar.png" width="100%">
 </p>
 
-## :rocket: Tecnologias
+## :rocket: Tecnologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following techs:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
-## 💻 Projeto
 
-O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período.
+## 💻 Project
+
+This project was developed to help developers find each other by location and technologies of interest.
+
+## How to run
+
+### BACKEND: 
+### Just access the fold `backend` and run:
+
+To install dependences
+```
+  $ yarn
+  
+  or
+
+  $ npm install
+```
+To start de server
+```
+  $ yarn dev
+
+  or
+
+  $ npm dev
+```
+
+### WEB: 
+### Just access the fold `web` and run:
+
+To install dependences
+```
+  $ yarn
+  
+  or
+
+  $ npm install
+```
+To start de server
+```
+  $ yarn start
+
+  or
+
+  $ npm start
+```
+
+### mobile: 
+### First you need to edit the file `api.js` and `socket.js` with your current IP address. 
+
+mobile/src/services/api.js
+```
+import axios from 'axios';
+
+const api = axios.create({
+  baseURL: 'http://YOUR_IP_ADDRESS:3333',
+});
+
+export default api;
+```
+
+mobile/src/services/socket.js
+```
+import socketio from 'socket.io-client';
+
+const socket = socketio('http://YOUR_ID_ADDRESS:3333', {
+  autoConnect: false,
+});
+```
+
+### So access the fold `mobile` and run:
+To install dependences
+```
+  $ yarn
+  
+  or
+
+  $ npm install
+```
+To start de server
+```
+  $ yarn start
+
+  or
+
+  $ npm start
+```
 
 ## 🤔 Como contribuir
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+- Fork this repo;
+- Create a branch for your new feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My brand new feature'`;
+- Push it to your branch: `git push origin my-feature`.
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+After merge of your pull request, you can delete your branch.
 
-## :memo: Licença
+## :memo: License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is under MIT license. See the file [LICENSE](LICENSE) for details.
 
 ---
 
-[Visite meu site!](https://www.ggportfolio.com.br)
+[Visit my website!](https://www.ggportfolio.com.br)

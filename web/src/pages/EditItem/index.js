@@ -23,8 +23,8 @@ export default function EditItem({ match, navi }) {
       setId(item.data._id);
       setGithubUsername(item.data.github_username);
       setTechs(item.data.techs.join(", "));
-      setLatitude(item.data.location.coordinates[0]);
-      setLongitude(item.data.location.coordinates[1]);
+      setLatitude(item.data.location.coordinates[1]);
+      setLongitude(item.data.location.coordinates[0]);
     }
 
     findItem(match.params.id);

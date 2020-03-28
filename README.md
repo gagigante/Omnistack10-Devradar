@@ -21,11 +21,11 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
 <p align="center">
-  <a href="#rocket-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how to run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">License</a>
+  <a href="#rocket-tecnologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
 </p>
 
 <br>
@@ -48,7 +48,7 @@ This project was developed with the following techs:
 
 This project was developed to help developers find each other by location and technologies of interest.
 
-## How to run
+## :runner: How to run
 
 ### BACKEND: 
 ### Just access the fold `backend` and run:
@@ -90,7 +90,7 @@ To start de server
   $ npm start
 ```
 
-### mobile: 
+### MOBILE: 
 ### First you need to edit the file `api.js` and `socket.js` with your current IP address. 
 
 mobile/src/services/api.js

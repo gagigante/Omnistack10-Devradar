@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="#rocket-tecnologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#runner">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#runner-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
@@ -131,7 +131,7 @@ To start de server
   $ npm start
 ```
 
-## 🤔 Como contribuir
+## 🤔 How to contribute
 
 - Fork this repo;
 - Create a branch for your new feature: `git checkout -b my-feature`;

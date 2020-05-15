@@ -42,6 +42,7 @@ This project was developed with the following techs:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
+- [MongoDB](https://www.mongodb.com/)
 
 
 ## 💻 Project

@@ -54,7 +54,7 @@ This project was developed to help developers find each other by location and te
 ### BACKEND: 
 ### Just access the fold `backend` and run:
 
-To install dependences
+To install dependencies
 ```
   $ yarn
   
@@ -74,7 +74,7 @@ To start de server
 ### WEB: 
 ### Just access the fold `web` and run:
 
-To install dependences
+To install dependencies
 ```
   $ yarn
   
@@ -115,7 +115,7 @@ const socket = socketio('http://YOUR_ID_ADDRESS:3333', {
 ```
 
 ### So access the fold `mobile` and run:
-To install dependences
+To install dependencies
 ```
   $ yarn
   

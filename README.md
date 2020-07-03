@@ -62,7 +62,7 @@ To install dependencies
 
   $ npm install
 ```
-To start de server
+To start the server
 ```
   $ yarn dev
 
@@ -123,7 +123,7 @@ To install dependencies
 
   $ npm install
 ```
-To start de server
+To start the server
 ```
   $ yarn start
 
